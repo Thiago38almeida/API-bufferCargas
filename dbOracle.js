@@ -9,9 +9,9 @@ const sql = require('mssql/msnodesqlv8')
 async function connect() {
   try {
     const connection = await OracleDB.getConnection({
-      user: "mundial",
-      password: "mundial",
-      connectString: "172.18.0.78/WMSPRD",
+      user: "sistem",
+      password: "<PASSWORD>",
+      connectString: "localhost/WMSPRD",
     });
    
     console.log('Connected successfully oracle!');
